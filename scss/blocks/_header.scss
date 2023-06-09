@@ -1,0 +1,77 @@
+// HEADER STYLES STARTS
+.site-header{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background: rgb(255,243,205);
+    background: linear-gradient(156deg, rgba(255,243,205,1) 0%, rgba(255,255,255,0) 48%, rgba(204,218,255,1) 100%);
+    
+    &__wrapper{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    &__nav--list{
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+    
+    &__nav--item:not(:last-child){
+        margin-right: 40px;
+    }
+    
+    &__nav--link{
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: $primary-text-color;
+        opacity: 0.6;
+    }
+    
+    &__nav--link:hover{
+        color: $primary-text-color;
+        opacity: 1;
+    }
+    
+    &__nav--img{
+        margin-left: 5px;
+        text-align: center;
+        opacity: 0.6;
+    }
+    
+    &__wrapper--end{
+        display: inline-block;
+    }
+    
+    &__link--login{
+        margin-right: 32px;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: $primary-text-color;
+        opacity: 0.6;
+    }
+    
+    &__link--signup{
+        padding: 12px 24px;
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: $primary-color;
+        background-color: $blue-color;
+        border-radius: 28px;
+    }
+    
+    
+    
+    
+    
+}
+
+
+
+// HEADER STYLES ENDS
