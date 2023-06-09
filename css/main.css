@@ -609,4 +609,73 @@ ol {
   box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.05);
   border-radius: 16px;
   background-color: #fff;
+}
+
+.access-section {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.access-section__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.access-section__wrapper--start {
+  margin-right: 53px;
+}
+.access-section__wrapper--end {
+  width: 100%;
+  max-width: 516px;
+}
+.access-section__title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000;
+}
+.access-section__desc {
+  margin-top: 0;
+  margin-bottom: 56px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+  opacity: 0.6;
+}
+.access-section__qualities {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.access-section__inside {
+  position: relative;
+  display: block;
+  margin-right: 60px;
+  text-align: start;
+}
+.access-section__text1 {
+  margin-top: 0;
+  margin-left: 30px;
+  font-family: "Lexend";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+}
+.access-section__tick {
+  position: absolute;
+  left: -5px;
+}
+.access-section__link {
+  padding: 12px 24px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  background-color: #608BFF;
+  border-radius: 28px;
 }/*# sourceMappingURL=main.css.map */
