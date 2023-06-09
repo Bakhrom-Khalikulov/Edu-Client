@@ -20,7 +20,8 @@ body {
   overflow-x: hidden;
   font-family: $font-stack;
   font-weight: 400;
-  background-color: $primary-color;
+  background: rgb(255,243,205);
+background: linear-gradient(150deg, rgba(255,243,205,1) 0%, rgba(255,255,255,1) 18%, rgba(232,239,255,1) 37%, rgba(255,255,255,1) 51%, rgba(255,248,226,1) 67%, rgba(255,255,255,1) 84%, rgba(230,237,255,1) 100%);
 }
 
 main{

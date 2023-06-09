@@ -1,0 +1,105 @@
+// HERO SECTION STYLE STARTS
+.hero-section{
+    padding-top: 53px;
+    padding-bottom: 88px;
+    
+    &__wrapper{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    
+    &__wrapper--end{
+        width: 100%;
+        max-width: 464px;
+    }
+    
+    &__title{
+        margin-top: 0;
+        margin-bottom: 24px;
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 74px;
+        color: $primary-text-color;
+    }
+    
+    &__title--color{
+        color: $orange-color;
+        
+    }
+    
+    &__desc{
+        margin-top: 0;
+        margin-bottom: 48px;
+        font-family: 'Poppins';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: $primary-text-color;
+        opacity: 0.6;
+    }
+    
+    &__links{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        margin-bottom: 88px;
+    }
+    
+    &__link{
+        margin-right: 48px;
+        padding: 16px 24px;
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: $primary-color;
+        background-color: $blue-color;
+        border-radius: 28px;
+        
+    }
+    
+    &__wrapper--numbers{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    &__result1{
+        margin-top: 0;
+        margin-bottom: 16px;
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 64px;
+        line-height: 75px;
+        color: rgba(0, 0, 0, 0.8);
+    }
+    
+    &__result1-under{
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: 'Poppins';
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 32px;
+        color: rgba(0, 0, 0, 0.8);
+    }
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+// HERO SECTION STYLE ENDS
