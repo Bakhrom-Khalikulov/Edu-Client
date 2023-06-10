@@ -875,4 +875,36 @@ ol {
   line-height: 24px;
   color: #000;
   opacity: 0.6;
+}
+
+.learning-section {
+  padding-top: 32px;
+  padding-bottom: 40px;
+  background-color: #608BFF;
+}
+.learning-section__wrapper {
+  width: 100%;
+  max-width: 550px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+.learning-section__title {
+  margin-top: 0;
+  margin-bottom: 48px;
+  font-family: "Sora";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #fff;
+}
+.learning-section__link {
+  padding: 11px 24px;
+  font-family: "Sora";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+  background: #FFFFFF;
+  border-radius: 32px;
 }/*# sourceMappingURL=main.css.map */

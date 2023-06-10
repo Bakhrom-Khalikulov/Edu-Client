@@ -1,0 +1,41 @@
+// LEARNING STYLES STARTS
+.learning-section{
+    padding-top: 32px;
+    padding-bottom: 40px;
+    background-color: $blue-color;
+    
+    &__wrapper{
+        width: 100%;
+        max-width: 550px;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+    
+    &__title{
+        margin-top: 0;
+        margin-bottom: 48px;
+        font-family: 'Sora';
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        color: $primary-color;
+    }
+    
+    &__link{
+        padding: 11px 24px;
+        font-family: 'Sora';
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: $primary-text-color;
+        background: #FFFFFF;
+        border-radius: 32px;
+        
+    }
+    
+}
+
+
+
+// LEARNING STYLES ENDS
