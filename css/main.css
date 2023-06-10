@@ -907,4 +907,43 @@ ol {
   color: #000;
   background: #FFFFFF;
   border-radius: 32px;
+}
+
+.site-footer {
+  padding-top: 246px;
+  padding-bottom: 104px;
+  background-color: #fff;
+}
+.site-footer__list {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+.site-footer__title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-family: "Sora";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #000;
+}
+.site-footer__desc:not(:last-child) {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.site-footer__desc {
+  font-family: "Lexend";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+  opacity: 0.6;
+}
+.site-footer__link {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.site-footer__social--links {
+  margin-right: 16px;
 }/*# sourceMappingURL=main.css.map */
