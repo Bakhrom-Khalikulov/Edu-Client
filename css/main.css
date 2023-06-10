@@ -750,4 +750,47 @@ ol {
   max-width: 485px;
   background-color: #fff;
   border-radius: 10px;
+}
+
+.quality-section {
+  margin-bottom: 100px;
+}
+.quality-section__wrapper {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+}
+.quality-section__wrapper--end {
+  width: 100%;
+  max-width: 519px;
+}
+.quality-section__title {
+  margin-top: 0;
+  margin-bottom: 16px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000;
+}
+.quality-section__desc {
+  margin-top: 0;
+  margin-bottom: 48px;
+  font-family: "Lexend";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000;
+  opacity: 0.6;
+}
+.quality-section__link {
+  padding: 12px 24px;
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #fff;
+  background-color: #608BFF;
+  border-radius: 65px;
 }/*# sourceMappingURL=main.css.map */
