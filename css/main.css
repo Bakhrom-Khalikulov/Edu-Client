@@ -799,6 +799,7 @@ ol {
   padding-top: 56px;
   padding-bottom: 220px;
   background-color: #FFF8E1;
+  position: relative;
 }
 .comment-section__wrapper--start {
   display: flex;
@@ -878,15 +879,19 @@ ol {
 }
 
 .learning-section {
+  position: absolute;
+  margin-top: -115px;
+  margin-left: 250px;
   padding-top: 32px;
+  padding-right: 183px;
   padding-bottom: 40px;
+  padding-left: 183px;
   background-color: #608BFF;
+  border-radius: 200px;
 }
 .learning-section__wrapper {
   width: 100%;
   max-width: 550px;
-  margin-right: auto;
-  margin-left: auto;
   text-align: center;
 }
 .learning-section__title {

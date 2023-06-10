@@ -1,14 +1,18 @@
 // LEARNING STYLES STARTS
 .learning-section{
+    position: absolute;
+    margin-top: -115px;
+    margin-left: 250px;
     padding-top: 32px;
+    padding-right: 183px;
     padding-bottom: 40px;
+    padding-left: 183px;
     background-color: $blue-color;
+    border-radius: 200px;
     
     &__wrapper{
         width: 100%;
         max-width: 550px;
-        margin-right: auto;
-        margin-left: auto;
         text-align: center;
     }
     
