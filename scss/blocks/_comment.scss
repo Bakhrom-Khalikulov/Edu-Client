@@ -1,0 +1,104 @@
+// COMMENT SECTION STARTS
+.comment-section{
+    padding-top: 56px;
+    padding-bottom: 220px;
+    background-color: #FFF8E1;
+    
+    &__wrapper--start{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    &__title{
+        margin-top: 0;
+        margin-bottom: 48px;
+        font-family: 'Sora';
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 50px;
+        color: $primary-text-color;
+    }
+    
+    
+    &__link{
+        padding: 8px 16px;
+        font-family: 'Poppins';
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 24px;
+        color: $primary-color;
+        background-color: $blue-color;
+        border-radius: 65px;
+    }
+
+
+    &__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    
+    &__item{
+        width: 100%;
+        max-width: 374px;
+        padding: 32px;
+        background-color: $primary-color;
+        border-radius: 16px;
+    }
+    
+    &__img-text{
+        display: flex;
+        align-items: center;
+        margin-bottom: 42px;
+        
+    }
+    
+    &__img{
+        margin-right: 12px;
+    }
+    
+    &__name{
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: 'Sora';
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 28px;
+        color: $primary-text-color;
+    }
+    
+    &__position{
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: 'Lexend';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: $primary-text-color;
+        opacity: 0.6;
+    }
+    
+    &__line{
+        margin-bottom: 20px;
+    }
+    
+    &__description{
+        margin-top: 0;
+        margin-bottom: 0;
+        font-family: 'Lexend';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        color: $primary-text-color;
+        opacity: 0.6;
+    }
+    
+    
+    
+}
+
+
+
+// COMMENT SECTION ENDS
