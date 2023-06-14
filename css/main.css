@@ -614,6 +614,9 @@ ol {
 .process-section {
   padding-top: 0;
   padding-bottom: 200px;
+  background-image: url(../../images/process_book1.png), url(../../images/process_book2.png), url(../../images/process_book3.png), url(../../images/process_book4.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 564px) 4px, calc(50% + 600px) 4px, calc(50% - 600px) calc(50% + 300px), calc(50% + 600px) calc(50% + 300px);
 }
 .process-section__wrapper--start {
   display: flex;
