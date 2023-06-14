@@ -463,7 +463,10 @@ ol {
 
 .site-header {
   padding-top: 24px;
-  padding-bottom: 24px;
+  padding-bottom: 80px;
+  background-image: url(../../images/hero1.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% - 650px) 5px;
 }
 .site-header__wrapper {
   display: flex;
@@ -521,6 +524,9 @@ ol {
 .hero-section {
   padding-top: 53px;
   padding-bottom: 88px;
+  background-image: url(../../images/hero2.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 650px) 4px;
 }
 .hero-section__wrapper {
   display: flex;
